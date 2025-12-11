@@ -33,7 +33,7 @@ color:
 # Footer settings
 footer:
   copyright: Orchis Uitvaartzorg B.V. & Joanne Plattel Uitvaartzorg en -educatie
-  location: Plaats
+  location: Contact
   # social: Social
   # credits: Credits
 
@@ -56,7 +56,7 @@ address:
   - line: 3362 GH Sliedrecht
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: '<a href="mailto:info@huisvanpollo.nl">info@huisvanpollo.nl</a>.'
 
 # Build settings
 markdown: kramdown
