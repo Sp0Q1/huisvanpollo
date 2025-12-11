@@ -56,7 +56,7 @@ address:
   - line: 3362 GH Sliedrecht
 
 # Credits content
-credits: '<a href="mailto:info@huisvanpollo.nl">info@huisvanpollo.nl</a>.'
+credits: '<br /><br /><br /><a href="mailto:info@huisvanpollo.nl">info@huisvanpollo.nl</a>'
 
 # Build settings
 markdown: kramdown
