@@ -1,12 +1,36 @@
 <!-- Portfolio Grid Section -->
 <section id="portfolio">
-  <div class="container portfolio-flex-grid">
+  <div class="container"> <!-- former class: portfolio-flex-grid -->
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2>Het Huis van Pollo</h2>
+        <h2>Wie is Pollo?</h2>
         <hr class="star-primary">
       </div>
     </div>
+    <div>
+      <p>Pollo is een kind op de basisschool.<br />
+      Hij laat andere kinderen zien dat afscheid nemen iets is wat je kunt leren.<br />
+      Jaar na jaar groeit hij met de kinderen mee en de kinderen met hem.</p>
+      <p>Afscheid nemen kun je leren,<br />
+      vier ‘grote’ onderwerpen,<br />
+      verhalen voor kinderen uit groep 1 (en 2), 3 (en 4), 5 (en 6), 7 (en 8):<br />
+      <ul>
+        <li>de dode kever</li>
+        <li>verhuizen</li>
+        <li>de dood van oma Claartje</li>
+        <li>Micks moeder is dood</li>
+      </ul></p>
+      <p>Deze verhalen kunnen herhaald worden<br />
+      of er kan op worden teruggeblikt door vervolgverhalen voor groep 2, 4, 6 en 8.</p>
+      <p>Leren afscheid nemen, stap voor stap in de vertrouwde omgeving van je eigen groep.</p>
+      <div>
+        <p>Wilt u contact met ons over het Huis van Pollo?</p>
+        <p>Mailen kan naar <a href="mailto"info@huisvanpollo.nl">info@huisvanpollo.nl</a><br />
+        U kunt ook bellen. Hij neemt niet zelf op,<br />
+        maar wij zijn er meestal wel.<br />
+        Natuurlijk kunt u ook inspreken. Dan bellen wij later terug.</p>
+    </div>
+    {% comment %}
     <div class="portfolio-flex-row">
       {% for post in site.posts %}
       <div class="portfolio-flex-item portfolio-item">
@@ -21,5 +45,6 @@
       </div>
       {% endfor %}
     </div>
+    {% endcomment %}
   </div>
 </section>
