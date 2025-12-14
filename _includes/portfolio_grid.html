@@ -4,7 +4,7 @@
     <!-- <div class="row">
       <div class="col-lg-12 text-center">
         <h2>Wie is Pollo?</h2>
-        <!-- <hr class="star-primary"> -->
+        <!- - <hr class="star-primary"> - ->
       </div>
     </div> -->
     <div class="row">
@@ -25,28 +25,37 @@
         <p>Deze verhalen kunnen herhaald worden<br />
         of er kan op worden teruggeblikt door vervolgverhalen voor groep 2, 4, 6 en 8.</p>
         <p>Leren afscheid nemen, stap voor stap in de vertrouwde omgeving van je eigen groep.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8">
         <p>Wilt u contact met ons over het Huis van Pollo?</p>
         <p>Mailen kan naar <a href="mailto"info@huisvanpollo.nl">info@huisvanpollo.nl</a><br />
         U kunt ook bellen. Hij neemt niet zelf op,<br />
         maar wij zijn er meestal wel.<br />
         Natuurlijk kunt u ook inspreken. Dan bellen wij later terug.</p>
       </div>
-      {% comment %}
-      <div class="portfolio-flex-row">
-        {% for post in site.posts %}
-        <div class="portfolio-flex-item portfolio-item">
-          <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-            <div class="caption">
-              <div class="caption-content">
-                <i class="fa fa-search-plus fa-3x"></i>
-              </div>
-            </div>
-            <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-          </a>
-        </div>
-        {% endfor %}
+      <div class="col-lg-2 col-lg-offset-8">
+        <img src="img/pollo_belt.jpeg" class="img-responsive">
       </div>
-      {% endcomment %}
     </div>
+  
+    {% comment %}
+    <div class="portfolio-flex-row">
+      {% for post in site.posts %}
+      <div class="portfolio-flex-item portfolio-item">
+        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+          <div class="caption">
+            <div class="caption-content">
+              <i class="fa fa-search-plus fa-3x"></i>
+            </div>
+          </div>
+          <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+    {% endcomment %}
+  
   </div>
 </section>
